@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 	  res.send('Hello World!')
 })
 
-app.get('/418', (req, res) => {
+app.get('/demo', (req, res) => {
   res.set('X-full-stack', '4life');
   res.status(418);
   res.send('I prefer coffee');
